@@ -6,3 +6,4 @@ GIT:
   - Caracteristicas
     - Flexible
     - Descentralizado
+    - Rapido
