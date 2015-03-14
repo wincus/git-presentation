@@ -6,3 +6,4 @@ GIT:
       - pero los blobs no tienen ni estructura
       - ni metadata
       - Para que Git pueda gestionar la estructura y la metadata
+      - contempla un nuevo tipo de objeto que puede almacenar
