@@ -6,3 +6,5 @@ GIT:
       - a los objetos los llamamos blobs
       - y el key para recuperar el objeto original no es mas que el
         hash sha1 del objeto
+
+      - ejemplo:
