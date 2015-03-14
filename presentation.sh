@@ -5,10 +5,15 @@
 mkdir -p /tmp/git-testing
 cd /tmp/git-testing
 
-echo "Nuestro archivo es el blob 980a"
+echo "Hola Mundo!" >> saludo
 
-git cat-file -t 980a
-git cat-file -s 980a
-git cat-file -p 980a
+git add saludo
+git commit -m "Nuevo Saludo"
+
+git cat-file -t d39c
+git cat-file -s d39c
+git cat-file -p d39c
+
+echo "git contiene un nuevo blob, el d39c"
 
 exit 0
