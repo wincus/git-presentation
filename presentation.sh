@@ -1,9 +1,17 @@
-GIT:
-  - un commit hace referencia a:
-    - al autor
-    - la fecha
-    - el comentario del autor
-    - el objeto tree con el snapshot de los archivos que conforman el
-      commit
-    - el objeto commit del cual es hijo, para poder trazar la historia
-    - Ejemplo
+#!/bin/bash
+
+#anatomía de un commit:
+#  autor
+#  fecha
+#  comentario
+#  tree
+#  parent
+
+cd /tmp/git-testing
+
+echo "Commit 30d0:"
+git cat-file -p 30d0
+echo "Tree asociado al commit 30d0:"
+git cat-file -p fbee
+
+exit 0
