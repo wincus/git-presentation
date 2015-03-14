@@ -7,3 +7,4 @@ GIT:
     - Flexible
     - Descentralizado
     - Rapido
+  - Arquitectura
