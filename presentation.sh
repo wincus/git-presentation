@@ -1,6 +1,9 @@
-GIT:
-  - Vamos por mas:
-    - Commits
-      - registra los cambios en GIT
-      - Anatomía de un Commit ->
-         
+#!/bin/bash
+
+#muestra los últimos commits
+
+cd /tmp/git-testing
+
+git log --pretty=oneline
+
+exit 0
