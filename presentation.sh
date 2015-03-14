@@ -1,7 +1,13 @@
-GIT:
-  - Enfoque de bajo nivel
-    - GIT como key/value store
-      - el objeto de tipo Tree puede contener blobs o mas subtrees
-      - puede verse como un snapshot de un conjunto de archivos
-        y directorios
-      - ejemplo
+#!/bin/bash
+
+#ejemplo de como Git almacena los objetos de 
+#tipo tree
+
+cd /tmp/git-testing
+
+echo "Tree 854e:"
+git cat-file -p 854e
+echo "Tree 8842:"
+git cat-file -p 8842
+
+exit 0
