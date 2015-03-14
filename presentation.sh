@@ -5,3 +5,4 @@ GIT:
     - Momentum
   - Caracteristicas
     - Flexible
+    - Descentralizado
