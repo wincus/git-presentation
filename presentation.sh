@@ -1,23 +1,19 @@
 #!/bin/bash
 
-#ejemplo de como renombrar un archivo
-#no modifica el objeto de tipo de blob
-#ya que no cambia su contenido, sino 
-#el objeto de tipo tree que contiene
-#la estructura
+#ejemplo de como un objeto de tipo
+#tree puede contener blobs y trees
 
 cd /tmp/git-testing
 
-git mv README LEEME
-git status
+mkdir subdir
+echo "subdir contents" >> subdir/file
 
-git commit -m "moved README to LEEME"
+git add subdir
+git commit -m "Added subdir"
 
-echo "Nuevo Tree:"
-git cat-file -p c6c89
-echo "Viejo Tree:"
-git cat-file -p bc5f
-
-echo "hay dos objetos de tipo tree"
+echo "nuevo objeto tipo tree, e6b8:"
+git cat-file -p e6b8
+echo "nuevo objeto tipo tree, 7a61:"
+git cat-file -p 7a61
 
 exit 0
