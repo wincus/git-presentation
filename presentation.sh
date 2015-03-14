@@ -8,5 +8,5 @@ GIT:
     - Descentralizado
     - Rapido
   - Arquitectura
-    - Plumbing
+    - Plumbing <- comenzamos por acá
     - Porcelain
