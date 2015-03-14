@@ -1,10 +1,16 @@
-GIT:
-  - Enfoque de bajo nivel
-    - GIT como key/value store
-      - le das un objeto y te devuelve un key unívoco de ese objeto
-      - le das el key del objeto y te devuelve el objeto original
-      - a los objetos los llamamos blobs
-      - y el key para recuperar el objeto original no es mas que el
-        hash sha1 del objeto
+#!/bin/bash
 
-      - ejemplo:
+# ejemplo de GIT como un store de key/value
+
+rm -rf /tmp/git-testing
+mkdir -p /tmp/git-testing
+cd /tmp/git-testing
+git init
+echo "Hello World!" > saludo
+git hash-object saludo
+git add saludo
+git commit -m "Nuevo Saludo"
+
+find .git/objects
+
+exit 0
