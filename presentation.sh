@@ -4,3 +4,4 @@ GIT:
       - hasta ahora solo guardamos archivos
       - y los recuperamos con su key
       - pero los blobs no tienen ni estructura
+      - ni metadata
