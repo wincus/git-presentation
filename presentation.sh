@@ -5,9 +5,12 @@
 
 cd /tmp/git-testing
 
-echo "Tree 854e:"
-git cat-file -p 854e
-echo "Tree 8842:"
-git cat-file -p 8842
+echo "contenido del archivo Readme" > README
+git add README
+git commit -m "Added Readme"
+
+echo "Nuevo tree bc5f:"
+git cat-file -t bc5f
+git cat-file -p bc5f
 
 exit 0
