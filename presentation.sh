@@ -6,3 +6,6 @@ GIT:
               ^ 
               |
               \_ W <- X <- Y <- Z
+
+     - git checkout Z
+
