@@ -10,3 +10,8 @@ GIT:
     - Para unir ambas ramas:
       - git checkout Z
       - git merge D
+
+      . <- A <- B <- C <- D <---
+           ^                     \
+           |                       Z'(Z+D)
+           \_ W <- X <- Y <- Z <-/
