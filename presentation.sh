@@ -9,3 +9,4 @@ GIT:
 
     - Para unir ambas ramas:
       - git checkout Z
+      - git merge D
