@@ -11,3 +11,4 @@ GIT:
       - name~10
       - name:path
       - name^{tree}
+      - name1..name2
