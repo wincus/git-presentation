@@ -9,3 +9,4 @@ GIT:
       - name^^
       - name^2
       - name~10
+      - name:path
