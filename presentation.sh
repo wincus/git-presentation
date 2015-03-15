@@ -5,3 +5,4 @@ GIT:
       - HEAD
       - c82a22c39cbc32...
       - c82a22c
+      - name^
