@@ -8,3 +8,4 @@ GIT:
       - name^
       - name^^
       - name^2
+      - name~10
