@@ -13,4 +13,5 @@ GIT:
       - name^{tree}
       - name1..name2
       - name1...name2
+      - master..
 
