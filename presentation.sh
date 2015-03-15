@@ -7,3 +7,4 @@ GIT:
       - c82a22c
       - name^
       - name^^
+      - name^2
